@@ -180,7 +180,7 @@ if ($conn->connect_error) {
                             <br></br>
                         <div id="work-collections" class="collection">
                             <?php
-                            $sql = mysqli_query($conn, "CALL Orders('Cancelled');");
+                            $sql = mysqli_query($conn, "CALL Orders('Canceled');");
                             echo '<div>
                                 <div>
                                     <ul class="collection">';
